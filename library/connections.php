@@ -2,8 +2,8 @@
 
 function byuiConnect() {
     $server = 'localhost';
-    $database = 'byu_i';
-    $user = 'byuistudent';
+    $database = 'assets';
+    $user = 'assettracker';
     $password = 'BSyLffx50SSxitDI';
     $dsn = "mysql:host=$server;dbname=$database";
     $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
