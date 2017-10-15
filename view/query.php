@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>BYU-I Asset edit</title>
         <meta name="viewport" content="width=device-widtch">
-        <link href="/byu-i/css/styles.css" rel="stylesheet" type="text/css">
+        <link href="/asset_tracking/css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>

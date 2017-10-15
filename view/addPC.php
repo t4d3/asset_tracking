@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>BYU-I Add asset</title>
         <meta name="viewport" content="width=device-widtch">
-        <link href="/byu-i/css/styles.css" rel="stylesheet" type="text/css">
+        <link href="/asset_tracking/css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
@@ -15,7 +15,7 @@
             <div id="searchForm">
                 <h1>Add asset</h1>
                 <h4>(Please fill out all the fields)</h4>
-                <form method="post" action="/byu-i/edit/">
+                <form method="post" action="/asset_tracking/edit/">
                     <input type="text" placeholder="Asset Tag" name="asset_tag" id="aet_tag">
                     <input type="text" placeholder="Model"     name="model"     id="model">
                     <select name="building">
@@ -31,7 +31,7 @@
                     <!-- Add the action name - value pair -->
                     <input type="hidden" name="action" value="insertAsset">
                 </form>
-                <a href="/byu-i/">Search for assets</a>
+                <a href="/asset_tracking/">Search for assets</a>
 
             </div>
             <div id="addMessage">

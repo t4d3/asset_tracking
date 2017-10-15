@@ -30,7 +30,7 @@ switch ($action) {
         } else {
             $computer = assetTag($asset_tag);
 
-            $message = "<form method = 'post' action = '/byu-i/'>";
+            $message = "<form method = 'post' action = '/asset_tracking/'>";
             $message .= "<input type = 'text' value='$computer[asset_tag]' placeholder = 'Asset Tag' name = 'asset_tag' id = 'asset_tag'>";
             $message .= "$computer[model]";
             $message .= "<input type = 'text' value='$computer[building]' placeholder = 'Building' name = 'building' id = 'building'>";
